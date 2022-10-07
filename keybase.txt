@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/fodi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://fodi.be
+  * I am fodi (https://keybase.io/fodi) on keybase.
+  * I have a public key ASCVTG0urR_ABPI1CDWB_OsYzseQQUGEHFDTpYo6HMaRWQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120954c6d2ead1fc004f235083581fceb18cec7904141841c50d3a58a3a1cc691590a",
+      "host": "keybase.io",
+      "kid": "0120954c6d2ead1fc004f235083581fceb18cec7904141841c50d3a58a3a1cc691590a",
+      "uid": "d03d3ad472cfb25c5966081d58fa5119",
+      "username": "fodi"
+    },
+    "merkle_root": {
+      "ctime": 1631628631,
+      "hash": "96301b7ea2e14bd38e35abfd889d5819f3893b43fd0833909282fbfee0f91f632fd28a16fbf4df9868b39a6fc9de24ac774d0dabeec61d17a9dfa5f8963a1d2c",
+      "hash_meta": "4a7a65328957b0a0bb2d5cddb3fefd13a7b77b91e828dcf51f3fb5ef57485d68",
+      "seqno": 20765177
+    },
+    "service": {
+      "entropy": "DHp3Ns5GwNPIVocceJ0YR6t/",
+      "hostname": "fodi.be",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.1"
+  },
+  "ctime": 1631628658,
+  "expire_in": 504576000,
+  "prev": "71d3f665d616a54e46fff02d63ca348579103815b8f31f21440ac1b436485bd4",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglUxtLq0fwATyNQg1gfzrGM7HkEFBhBxQ06WKOhzGkVkKp3BheWxvYWTESpcCBsQgcdP2ZdYWpU5G//AtY8o0hXkQOBW48x8hRArBtDZIW9TEIFTA4TKzs1y92xJBU2jrAE9SXkjXg01r5dPhxDORkQrSAgHCo3NpZ8RADT/PRhGgq2BG1XYBNi2gHHsZhW+6HksbVtp2l76Hgt5tPwq+tKypa3aPiPPvZeqnWzg0hbaybfv9I++Bk+jtDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHMXXijEDBLdq+Uum64VuOJ8RP9AO1hxplNk7zpnrppvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fodi
+
+==================================================================
