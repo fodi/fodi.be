@@ -1,223 +1,140 @@
 <!DOCTYPE html>
 <html lang=en>
-    <head>
-        <title>Bence Fodor (Fodi) | web & game developer based in Hungary</title>
-        <meta charset="UTF-8">
-        <meta name=description content="Hi, I'm Bence Fodor (Fodi), a web & game developer from Hungary.">
-        <meta name=viewport content="width=device-width,initial-scale=1.0">
-        <link rel=icon href="data:,">
-        <style>
-            *{font-family:sans-serif;margin:0;padding:0}
-            a{color:#6c8}
-            body{background:#222;display:flex;align-items:center;flex-direction:column;color:#aaa;padding:0}
-            div.content{display:flex;flex-direction:column;gap:2rem}
-            div>*{background:#333;padding:1.5rem}
-            h1,h2{font-size:1.5em}
-            h1{color:#eee;margin-bottom:1.2em}
-            h2{margin-bottom:1em}
-            h3,article h2{font-size:1.17em;margin-bottom:0.5em;color:#ccc}
-            ul{display:block;list-style:none;padding:0}
-            li{font-size:0.9em;float:left;padding:0 1rem 0.5rem 0;line-height:1.4em}
+	<head>
+		<title>Bence Fodor (Fodi) | web & game developer based in Hungary</title>
+		<meta charset="UTF-8">
+		<meta name=description content="Hi, I'm Bence Fodor (Fodi), a web & game developer from Hungary.">
+		<meta name=viewport content="width=device-width,initial-scale=1.0">
+		<link rel=icon href="data:,">
+		<style>
+			*{font-family:sans-serif;margin:0;padding:0}
+			a{color:#6c8}
+			body{background:#222;display:flex;align-items:center;flex-direction:column;color:#aaa;padding:0}
+			div.content{display:flex;flex-direction:column;gap:2rem}
+			div>*{background:#333;padding:1.5rem}
+			h1,h2{font-size:1.5em}
+			h1{color:#eee;margin-bottom:1em}
+			h2{margin-bottom:1em}
+			h3,article h2{font-size:1.17em;margin-bottom:0.5em;color:#ccc}
+			ul{display:block;list-style:none;padding:0}
+			li{float:left;padding:0 1rem 0.5rem 0;line-height:1.4em}
 			ul+ul{margin-top:0.7rem}
-            header{display:flex;align-items:center}
-            header>*+*{padding:1.5rem}
-            header h1{margin-bottom:0.1em}
-            p{line-height:1.4em}
+			header{display:flex;align-items:center}
+			header>*+*{padding:1.5rem}
+			header h1{margin-bottom:0.1em}
+			p{line-height:1.5em;margin-top:1em}
 			.lang{margin:1em 0;font-size:1.5rem}
 			.lang a{text-decoration:none;padding:0 1rem}
-            p+p{margin-top:1em}
-            article+article{margin-top:1.5rem}
-            img{max-width:100%;height:auto;border:10px solid #1887ab;border-radius:10px}
-            footer{text-align:center}
-            @media(max-width:567px){header{flex-direction:column}body{padding:0}}
-            @media(min-width:1111px){div{max-width:1111px}}
+			
+			article+article{margin-top:1.5rem}
+			img{max-width:100%;height:auto;border:10px solid #1887ab;border-radius:10px}
+			footer{text-align:center}
+			@media(max-width:567px){header{flex-direction:column}body{padding:0}}
+			@media(min-width:1111px){div{max-width:1111px}}
 			.content [lang]{display:none}
 			body:not(:has(:target)) .content [lang="en"],#en:target ~ .content [lang="en"]{display:revert}
 			#hu:target ~ .content [lang="hu"]{display:revert}
-        </style>
-    </head>
-    <body>
+		</style>
+	</head>
+	<body>
 		<div id="en"></div>
 		<div id="hu"></div>
 		<span class=lang>
-		  <a href=#en><span role=img aria-label=English>🇬🇧</span></a>
-		  <a href=#hu><span role=img aria-label=magyar>🇭🇺</span></a>
-	    </span>
-        <div class=content>
-            <header>
-                <img src=fodi.webp width=150 height=150 alt="Bence Fodor">
-                <aside>
-                    <h1 lang=en>Bence Fodor (Fodi)</h1>
+			<a href=#en><span role=img aria-label=English>🇬🇧</span></a>
+			<a href=#hu><span role=img aria-label=magyar>🇭🇺</span></a>
+		</span>
+		<div class=content>
+			<header>
+				<img src=fodi.webp width=150 height=150 alt="Bence Fodor">
+				<aside>
+					<h1 lang=en>Bence Fodor (Fodi)</h1>
 					<h1 lang=hu>Fodor Bence (Fodi)</h1>
-                    <h2 lang=en>web & game developer</h2>
+					<h2 lang=en>web & game developer</h2>
 					<h2 lang=hu>web- és játékfejlesztő</h2>
-                    <ul>
-                        <li><a href="https://gamedev.fodi.be">Blog</a></li>
-                        <li><a href="https://github.com/fodi">GitHub</a></li>
+					<ul>
+						<li><a href="https://gamedev.fodi.be">Blog</a></li>
+						<li><a href="https://github.com/fodi">GitHub</a></li>
 						<li><a href="https://fodi.itch.io">Itch.io</a></li>
-                        <li><a href="https://soundcloud.com/fodi">SoundCloud</a></li>
-                        <li><a href="https://twitch.tv/fodi_gamedev">Twitch</a></li>
-                        <li><a href="https://youtube.com/@Fodi_be">YouTube</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="https://bsky.fodi.be">Bluesky</a></li>
-                        <li><a href="https://buymeacoffee.com/fodi">Buy Me a Coffee</a></li>
-                        <li><a href="https://last.fm/user/fodi_be">Last.fm</a></li>
-                        <li><a href="https://open.spotify.com/user/fodivagyok">Spotify</a></li>
-                        <li><a href="https://steamcommunity.com/id/fodi_be">Steam</a></li>
-                        <li><a href="https://trakt.tv/users/fodi">Trakt</a></li>
-                    </ul>
-                </aside>
-            </header>
-            <section id=about>
-                <h1 lang=en>About me</h1>
-                <h1 lang=hu>Rólam</h1>
+						<li><a href="https://soundcloud.com/fodi">SoundCloud</a></li>
+						<li><a href="https://twitch.tv/fodi_gamedev">Twitch</a></li>
+						<li><a href="https://youtube.com/@Fodi_be">YouTube</a></li>
+					</ul>
+					<ul>
+						<li><a href="https://bsky.fodi.be">Bluesky</a></li>
+						<li><a href="https://buymeacoffee.com/fodi">Buy Me a Coffee</a></li>
+						<li><a href="https://last.fm/user/fodi_be">Last.fm</a></li>
+						<li><a href="https://open.spotify.com/user/fodivagyok">Spotify</a></li>
+						<li><a href="https://steamcommunity.com/id/fodi_be">Steam</a></li>
+						<li><a href="https://trakt.tv/users/fodi">Trakt</a></li>
+					</ul>
+				</aside>
+			</header>
+			<section id=about>
+				<h1 lang=en>About me</h1>
+				<h1 lang=hu>Rólam</h1>
 				<p lang=en>Hi there, I'm Fodi. I've been a computer addict ever since I got my hands on a Commodore 64 as a kid.</p>
-				<p lang=hu>Helló, Fodi vagyok és elég sokat ülök számítógép előtt.</p>
-				<p lang=en>I started working as a software developer in 2010, I mostly do web stuff. I've spent 15+ years working with HTML, CSS, JavaScript, PHP, MySQL and WordPress. I've been a full time freelancer since 2015.</p>
-				<p lang=hu>Szoftverfejlesztőként dolgozom 2010 óta, főleg webes dolgokkal foglalkozom. Bő 15 év tapasztalatom van HTML, CSS, JavaScript, PHP, MySQL és WordPress fejlesztés területén. 2015 óta vagyok szabadúszó.</p>
-				<p lang=en>I found a new hobby in 2020: making video games. I'm a big fan of the <a href="https://construct.net">Construct 3</a> game engine and made dozens of prototypes and jam games in the last few years. You can find most of them on my <a href="https://fodi.itch.io">Itch.io</a> page, if you're interested in that sort of thing. In 2025 I started organizing a weekly meetup called <a href="https://gamedevklub.hu">Gamedev Club</a> in the local library of my hometown to find and connect local people interested in making games for fun. Sometimes I also stream game development on <a href="https://www.twitch.tv/fodi_gamedev">Twitch</a>.</p>
-				<p lang=hu>2020 óta hobbim a videójáték-fejlesztés, a <a href="https://construct.net">Construct 3</a> nevű engine-t használom. Az utóbbi pár évben több tucat prototípust és jam játékot készítettem, ezek nagy részét az <a href="https://fodi.itch.io">Itch.io</a> oldalamon lehet megtekinteni. 2025-ben indítottam egy <a href="https://gamedevklub.hu">Gamedev Klub</a> nevű heti rendszerességű eseménysorozatot a Békés Megyei Könyvtárban. A cél, hogy összekössük azokat a helyi népeket, akiket érdekel a játékfejlesztés bármelyik területe. Néha szoktam játékfejlesztést streamelni is <a href="https://www.twitch.tv/fodi_gamedev">Twitch</a>-en.</p>
-            </section>
-            <section id=work>
-                <h1 lang=en>Work experience</h1>
+				<p lang=hu>Helló, Fodi vagyok és elég sokat ülök a számítógép előtt.</p>
+				<p lang=en>I started working as a software developer in 2010, I have 15+ years of experience with HTML, CSS, JavaScript, PHP, MySQL and WordPress. I've been working as a freelancer since 2015.</p>
+				<p lang=hu>Szoftverfejlesztőként dolgozom 2010 óta, bő 15 év tapasztalatom van HTML, CSS, JavaScript, PHP, MySQL és WordPress fejlesztés területén. 2015 óta vagyok szabadúszó.</p>
+				<p lang=en>My main hobby is making video games. I'm a big fan of the <a href="https://construct.net">Construct 3</a> game engine and made dozens of prototypes and jam games since 2020. You can find most of them on my <a href="https://fodi.itch.io">Itch.io</a> page. In 2025 I started organizing a weekly meetup called <a href="https://gamedevklub.hu">Gamedev Club</a> in the local library of my hometown to find and connect locals interested in making video games. Sometimes I stream game development on <a href="https://www.twitch.tv/fodi_gamedev">Twitch</a>.</p>
+				<p lang=hu>Hobbim a videójáték-fejlesztés, a <a href="https://construct.net">Construct 3</a> nevű engine-t használom. 2020 óta több tucat prototípust és jam játékot készítettem, többségük kipróbálható az <a href="https://fodi.itch.io">Itch.io</a> oldalamon. 2025-ben indítottam egy <a href="https://gamedevklub.hu">Gamedev Klub</a> nevű heti rendszerességű eseménysorozatot a Békés Megyei Könyvtárban. A cél, hogy összekössük azokat a helyi arcokat, akiket érdekel a téma. Néha szoktam játékfejlesztést streamelni a <a href="https://www.twitch.tv/fodi_gamedev">Twitch</a>-en.</p>
+			</section>
+			<section id=work>
+				<h1 lang=en>Work experience</h1>
 				<h1 lang=hu>Munkatapasztalat</h1>
-                <article>
-                    <h2 lang=en>Freelance software developer (since 2015)</h2>
-                    <h2 lang=hu>Szabadúszó szoftverfejlesztő (2015 óta)</h2>
-                    <p lang=en>I build websites, mobile and web applications, video games.</p>
-                    <p lang=hu>Weboldalakat, mobil és web appokat, videójátékokat fejlesztek.</p>
-                </article>
-                <article>
-                    <h2 lang=en>Workshop lead @ <a href="https://kollabor.hu">Kollabor</a> (2020 - 2023)</h2>
-                    <p lang=en>I ran learning-by-doing workshops for primary and secondary school kids about programming, video game development, robotics, 3D modeling and printing.</p>
-                </article>
-                <article>
-                    <h2 lang=en>Mobile application developer @ <a href="https://opendatasecurity.io">Open Data Security S.L.</a> (2015 - 2016)</h2>
-                    <p lang=en>My main project was rewriting a native Android application using Cordova (targeting both Android and iOS) with an updated UI and added functionality.</p>
-                </article>
-                <article>
-                    <h2 lang=en>Developer & IT coordinator @ <a href="https://kner.hu">Marzek Kner Packaging Llc</a> (2010 - 2015)</h2>
-                    <p lang=en>I was mostly involved ERP development (in Microsoft Axapta 3 and Microsoft Dynamics AX 2012), but I also worked on various web/intranet apps (LAMP stack), a Java app that interfaced with Zebra label printers, a barcode data collection Android app and a Raspberry Pi based internal digital signage system.</p>
-                </article>
-                <article>
-                    <h2 lang=en>Sitebuilder & PHP developer @ Concept Internet Ltd (3 month internship in 2010)</h2>
-                    <p lang=en>I built static HTML sites from designs made in Photoshop, and some PHP/MySQL based e-commerce sites.</p>
-                </article>
-            </section>
-            <section id=projects>
-                <h1 lang=en>Some of my games / silly projects</h1>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/war-on-oil">War On Oil</a> (2024)</h2>
-                    <p lang=en>An action RTS for the <a href="https://itch.io/jam/hej-2024-november">HEJ 2024 November jam</a>, our first collaboration with <a href="https://www.artstation.com/polaro">Polaro</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://fodi.itch.io/tobujam-2-5">Truck-a-Gotchi</a> (2024)</h2>
-                    <p lang=en>A silly tamagotchi game where you drive around with a big truck and deliver stuff to your creature. Made for <a href="https://itch.io/jam/tobujam-2dot5">ToBuJam 2.5</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/sussy-synth-solo">Sussy Synth Solo</a> (2024)</h2>
-                    <p lang=en>A block matching mobile game with questionable background music made for the <a href="https://itch.io/jam/hej-2024-oktober">HEJ 2024 October jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/hunjam2024">Time To Loop!</a> (2024)</h2>
-                    <p lang=en>A twin stick shooter with time loop shenanigans made in 49 hours for <a href="https://itch.io/jam/hunjam-2024">HunJam 2024</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/asteroid-blaster-master">Asteroid Blaster Master</a> (2024)</h2>
-                    <p lang=en>A multidirectional space shooter made for the <a href="https://itch.io/jam/hej-2024-szeptember">HEJ 2024 September jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/antennio">Adventures of Antennio</a> (2024)</h2>
-                    <p lang=en>A mountain scaling physics platformer made for the <a href="https://itch.io/jam/hej-2024-augusztus">HEJ 2024 August jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/m4th5">M4+H5</a> (2024)</h2>
-                    <p lang=en>A simple maths puzzle game made for the <a href="https://itch.io/jam/hej-2024-julius">HEJ 2024 July jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/hedges-of-hell">Hedges of Hell</a> (2024)</h2>
-                    <p lang=en>A high octane "doomer shooter" made for the <a href="https://itch.io/jam/hej-2024-junius">HEJ 2024 June jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/shortfall">Shortfall</a> (2024)</h2>
-                    <p lang=en>A roguelike action game made for the <a href="https://itch.io/jam/hej-2024-majus">HEJ 2024 May jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/recoupage">reCoupage</a> (2024)</h2>
-                    <p lang=en>A puzzle game with famous paintings that fall apart, made in a few days for the <a href="https://itch.io/jam/hej-2024-prilis">HEJ 2024 April jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/attractaball">Attractaball</a> (2024)</h2>
-                    <p lang=en>A 2D physics platformer game prototype made in a few days for the <a href="https://itch.io/jam/hej-2024-marcius">HEJ 2024 March jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/music-miner-marty">Music Miner Marty</a> (2024)</h2>
-                    <p lang=en>A rhythm game prototype made in a few days for the <a href="https://itch.io/jam/hej-2024-februar">HEJ 2024 February jam</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://fodi.itch.io/trijam-247">Magic Pandemic</a> (2023)</h2>
-                    <p lang=en>A super simple button smasher I made in 3 hours for <a href="https://itch.io/jam/trijam-247">TriJam #247</a>.
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/hunjam2023">Tower Offense 2000</a> (2023)</h2>
-                    <p lang=en>Snake-like action game for 1-2 players made for <a href="https://itch.io/jam/hunjam2023/rate/2336621">HunJam 2023</a>. We took <a href="https://fb.com/permalink.php?story_fbid=pfbid0pebvLTRfj26FGfhgC2jkN2eNzV9wN2mVgn89xaTo85finwEmKViH9AcoujzWVaYCl&id=61550812517788">first place</a> on that one.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/icojam-2023">Bouncy Block Buster</a> (2023)</h2>
-                    <p lang=en>BBTAN-like precision / physics puzzle made for <a href="https://itch.io/jam/icojam-2023">IcoJam 2023</a>.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/ludum-dare-53-jam-version">Something Something Delivery Something</a> (2023)</h2>
-                    <p lang=en>Hastily unfinished prototype of a simple action game for <a href="https://ldjam.com/events/ludum-dare/53/something-something-delivery-something">Ludum Dare 53</a>.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://fodi.itch.io/arucontrol-construct3">AruControl for Construct 3</a> (2022)</h2>
-                    <p lang=en>Construct 3 template for building games that can be controlled via ArUco fiducial markers, based on the <a href="https://github.com/damianofalcioni/js-aruco2">js-aruco2</a> library.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/copterfields">Copterfields</a> (2022)</h2>
-                    <p lang=en>Tower defense game heavily inspired by <a href="https://unrailed-game.com">Unrailed</a>, made for <a href="https://itch.io/jam/toy-box-jam-3">Toy Box Jam 3</a>.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://fodi.itch.io/level-editor-mayhem-prototype">Level Editor Mayhem</a> (2021)</h2>
-                    <p lang=en>Competitive couch multiplayer platformer game prototype.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/edge-of-axetinction">Edge of Axetinction</a> (2021)</h2>
-                    <p lang=en>Another invaluable lesson learned in time management, made for <a href="https://itch.io/jam/adaptive-music-jam">Adaptive Music Jam 2021</a>.</p>
-                </article>
-                <article>   
-                    <h2 lang=en><a href="https://fodi.itch.io/scorejam15">The Bad, The Bullet and The Bottles</a> (2021)</h2>
-                    <p lang=en>3D action game prototype made in 2 days for <a href="https://itch.io/jam/scorejam15">ScoreSpace Jam #15</a>.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://fodi.itch.io/azure-lux-jam">Chain? Reaction!</a> (2021)</h2>
-                    <p lang=en>Chain cutting action game prototype made in a day for <a href="https://itch.io/jam/azure-lux">The Azure Lux Game Jam</a>.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://lasermagnet.itch.io/groundflipper">Groundflipper</a> (2021)</h2>
-                    <p lang=en>Puzzle platformer game prototype made in a day for <a href="https://itch.io/jam/kenney-jam-2021">Kenney Jam 2021</a>.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://fodi.itch.io/gravity-unlocked">Gravity Unlocked</a> (2021)</h2>
-                    <p lang=en>Physics platformer game prototype made for <a href="https://itch.io/jam/my-first-game-jam-winter-2021">My First Game Jam: Winter 2021</a>. Indeed it was my first game jam.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://fodi.github.io/napirajz-lipsum">Napirajz lorem ipsum generator</a> (2020)</h2>
-                    <p lang=en>Lorem ipsum text generator using onomatopoeic words from the Napirajz universe.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://fodi.github.io/tobecontinued">To Be Continued meme video generator</a> (2018)</h2>
-                    <p lang=en>Turn any YouTube video into something <a href="https://youtube.com/results?search_query=to+be+continued+meme">like these</a>.</p>
-                </article>
-                <article>
-                    <h2 lang=en><a href="https://app.fodi.be/rockabilly">Rockabilly band name generator</a></h2>
-                    <p lang=en>Remember <i>Big Eddie Friday and Back Alley Memphis Blue Suede Shoes</i>? Neither do I.</p>
-                </article>
-            </section>
-            <footer lang=en>&copy; Bence Fodor</footer>
+				<article>
+					<h2 lang=en>Freelance software developer (since 2015)</h2>
+					<h2 lang=hu>Szabadúszó szoftverfejlesztő (2015 óta)</h2>
+					<p lang=en>I build websites, mobile and web applications, video games.</p>
+					<p lang=hu>Weboldalakat, mobil és web appokat, videójátékokat fejlesztek.</p>
+				</article>
+				<article>
+					<h2 lang=en>Workshop lead @ <a href="https://kollabor.hu">Kollabor</a> (2020 - 2023)</h2>
+					<h2 lang=hu>Workshop vezető @ <a href="https://kollabor.hu">Kollabor</a> (2020 - 2023)</h2>
+					<p lang=en>I ran learning-by-doing workshops aimed at primary and secondary school students about programming, video game development, robotics, 3D modeling and printing.</p>
+					<p lang=hu>Általános és középiskolás fiataloknak tartottam gyakorlati workshopokat programozás, videójáték-fejlesztés, robotika, 3D nyomtatás és modellezés témában.</p>
+				</article>
+				<article>
+					<h2 lang=en>Mobile application developer @ <a href="https://opendatasecurity.io">Open Data Security S.L.</a> (2015 - 2016)</h2>
+					<h2 lang=hu>Mobilalkalmazás-fejlesztő @ <a href="https://opendatasecurity.io">Open Data Security S.L.</a> (2015 - 2016)</h2>
+					<p lang=en>My main project was rewriting a native Android application as Cordova hybrid app (targeting Android and iOS) with a completely new UI and additional features.</p>
+					<p lang=hu>A fő projektem egy meglévő natív Android alkalmazás újraépítése volt Cordova hibrid alkalmazásként (Android és iOS platformokra), teljes UI átalakítással és új funkciók fejlesztésével.</p>
+				</article>
+				<article>
+					<h2 lang=en>Developer & IT coordinator @ <a href="https://kner.hu">Marzek Kner Packaging Llc</a> (2010 - 2015)</h2>
+					<h2 lang=hu>Fejlesztő és IT koordinátor @ <a href="https://kner.hu">Marzek Kner Packaging Kft</a> (2010 - 2015)</h2>
+					<p lang=en>I was primarily involved in ERP development (Microsoft Axapta 3, later Microsoft Dynamics AX 2012). I also built various web and intranet apps (LAMP stack), a Java app that controlled Zebra label printers, a barcode data collection Android app and a Raspberry Pi based networked digital signage system.</p>
+					<p lang=hu>A munkám nagy részét ERP fejlesztéssel töltöttem (Microsoft Axapta 3, később Microsoft Dynamics AX 2012). Ezen kívül fejlesztettem többek között web és intranet alkalmazásokat, Zebra címkenyomtatót vezérlő Java appot, vonalkódolvasó adatgyűjtő Android alkalmazást és egy Raspberry Pi alapú, belső hálózaton működő tartalom-megjelenítő rendszert is.</p>
+				</article>
+				<article>
+					<h2 lang=en>Sitebuilder & PHP developer @ Concept Internet Ltd (3 month internship in 2010)</h2>
+					<h2 lang=hu>Sitebuilder és PHP fejlesztő @ Concept Internet Ltd (3 month internship in 2010)</h2>
+					<p lang=en>I built static HTML sites from designs made in Photoshop, and some PHP/MySQL based e-commerce sites.</p>
+					<p lang=hu>Photoshop-ban készült tervek alapján készítettem statikus HTML oldalakat, illetve PHP és MySQL alapú webshopok fejlesztésében vettem részt.</p>
+				</article>
+			</section>
+			<section id=projects>
+				<h1 lang=en>Some of my hobby projects</h1>
+                <h1 lang=hu>Hobbiprojektek</h1>
+				<article>
+					<h2 lang=en>Video games</h2>
+                    <h2 lang=hu>Videójátékok</h2>
+					<p lang=en>I started making <a href="https://fodi.itch.io">video games</a> in 2020. I attempted <a href="https://fodi.itch.io/gravity-unlocked">my first game jam</a> in 2021, then over two dozen jams followed (and counting). My frequent collaborator is my good friend <a href="https://www.artstation.com/teebor9">Tibor</a>, who makes the graphics for almost all of our games. Our little studio is called <a href="https://lasermagnet.com">Lasermagnet Games</a>.</p>
+                    <p lang=hu>2020 óta hobbim a <a href="https://fodi.itch.io">videójáték-fejlesztés</a>. Több, mint két tucat game jam-re készítettem már játékot, <a href="https://fodi.itch.io/gravity-unlocked">az elsőt 2021-ben</a>. Gyakran dolgozom együtt <a href="https://www.artstation.com/teebor9">Tibor</a> barátommal, aki főleg a grafikáért felel. Közös "stúdiónk" a <a href="https://lasermagnet.com">Lasermagnet Games</a> nevet viseli.</p>
+                    <p lang=en>Currently I don't have plans to make any full releases, I just enjoy making prototypes for fun. Some of them were developed in just a few hours (eg. <a href="https://fodi.itch.io/mediocre-container-package">Mediocre Container Package</a>, <a href="https://fodi.itch.io/trijam-247">Magic Pandemic</a>, <a href="https://fodi.itch.io/trijam-270">Truck-a-Gotchi</a>), some took a couple days (eg. <a href="https://lasermagnet.itch.io/bouncy-block-buster">Bouncy Block Buster</a>, <a href="https://lasermagnet.itch.io/hunjam2023">Tower Offense 2000</a>, <a href="https://lasermagnet.itch.io/attractaball">Attractaball</a>, <a href="https://lasermagnet.itch.io/recoupage">Recoupage</a>, <a href="https://lasermagnet.itch.io/m4th5">M4+H5</a>), and a few went over the 100-hour mark (eg. <a href="https://lasermagnet.itch.io/hedges-of-hell">Hedges of Hell</a>, <a href="https://lasermagnet.itch.io/shortfall">Shortfall</a>).</p>
+                    <p lang=hu>Teljes értékű játék megjelentetése nem szerepel jelenleg a terveim között, viszont prototípusok fejlesztésével remekül szórakozok. Némelyiket csupán néhány óra alatt raktam össze (pl. <a href="https://fodi.itch.io/mediocre-container-package">Mediocre Container Package</a>, <a href="https://fodi.itch.io/trijam-247">Magic Pandemic</a>, <a href="https://fodi.itch.io/trijam-270">Truck-a-Gotchi</a>), a legtöbbet néhány nap alatt (pl. <a href="https://lasermagnet.itch.io/bouncy-block-buster">Bouncy Block Buster</a>, <a href="https://lasermagnet.itch.io/hunjam2023">Tower Offense 2000</a>, <a href="https://lasermagnet.itch.io/attractaball">Attractaball</a>, <a href="https://lasermagnet.itch.io/recoupage">Recoupage</a>, <a href="https://lasermagnet.itch.io/m4th5">M4+H5</a>), de akadnak olyanok is, amik 100 óra feletti fejlesztési időt is elértek (pl. <a href="https://lasermagnet.itch.io/hedges-of-hell">Hedges of Hell</a>, <a href="https://lasermagnet.itch.io/shortfall">Shortfall</a>).</p>
+                    <p lang=en>If you're also a Construct 3 developer, feel free to check out of my open source <a href="https://fodi.github.io/construct-3-projects/">Construct 3 templates / example projects</a> or <a href="https://gamedev.fodi.be/tips-for-c3-developers/">this blog post on Contruct 3 development</a> with some tips and organizational recommendations.</p>
+                    <p lang=hu>Ha Construct 3 fejlesztő vagy, nézz körül a nyílt forrású <a href="https://fodi.github.io/construct-3-projects/">Construct 3 sablonjaim és példaprojektjeim között</a>, esetleg olvass bele <a href="https://gamedev.fodi.be/tips-for-c3-developers/">ebbe a blogbejegyzésbe</a>, amiben tippeket és javaslatokat szedtem össze.</p>
+				</article>
+				<article>
+                    <h2 lang=en>Fun, random and mostly pointless stuff</h2>
+                    <h2 lang=hu>Végképp haszontalan, viccesnek szánt cuccok</h2>
+                    <p lang=en>I built things like a <a href="https://fodi.github.io/napirajz-lipsum">Lorem ipsum text generator using onomatopoeic words from the Napirajz universe</a>, a little tool you can use to make a <a href="https://fodi.github.io/tobecontinued">"to be continued" meme from any YouTube video</a> or <a href="https://app.fodi.be/rockabilly">this rockabilly band name generator</a>. Because I felt the need.</p>
+                    <p lang=hu>Ezek közé tartozik például egy <a href="https://fodi.github.io/napirajz-lipsum">Napirajzos lorem ipsum szöveg generátor</a>, egy webapp, amivel <a href="https://fodi.github.io/tobecontinued">"to be continued" mémet lehet csinálni bármilyen YouTube videóból</a>, vagy ez a remek <a href="https://app.fodi.be/rockabilly">rockabilly zenekarnév generátor</a>. Mert pont ráértem.</p>
+				</article>
+			</section>
+			<footer lang=en>&copy; Bence Fodor</footer>
 			<footer lang=hu>&copy; Fodor Bence</footer>
-        </div>
-    </body>
+		</div>
+	</body>
 </html>
