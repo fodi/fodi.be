@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>Stuff I use | Bence Fodor (Fodi) | web & game developer based in Hungary</title>
+		<meta charset="UTF-8">
+		<meta name=description content="This is a list of software and hardware I use nowadays.">
+		<meta name=viewport content="width=device-width,initial-scale=1.0">
+		<link rel=icon href="data:,">
+		<style>
+			*{font-family:sans-serif;margin:0;padding:0}
+			a{color:#6c8}
+			body{background:#222;display:flex;align-items:center;flex-direction:column;color:#aaa;padding:0}
+			div.content{display:flex;flex-direction:column;gap:2rem}
+			div>*{background:#333;padding:1.5rem}
+			h1{font-size:1.5em;color:#eee;margin-bottom:1em}
+			h2{margin:1.5em 0 1em;font-size:1.17em;color:#dfdfdf}
+			h3{font-size:1.17em;margin-bottom:0.5em;color:#ccc}
+			ul{display:block;list-style:disc;padding:0 0 0 1.5rem;line-height:1.5rem}
+			p{line-height:1.5em;margin-top:1em}
+			.lang{margin:1em 0;font-size:1.5rem}
+			.lang a{text-decoration:none;padding:0 1rem}
+			
+			article+article{margin-top:1.5rem}
+			img{max-width:100%;height:auto;border:10px solid #1887ab;border-radius:10px}
+			footer{text-align:center}
+			@media(max-width:567px){header{flex-direction:column}body{padding:0}}
+			@media(min-width:1111px){div{max-width:1111px}}
+			.content [lang]{display:none}
+			body:not(:has(:target)) .content [lang="en"],#en:target ~ .content [lang="en"]{display:revert}
+			#hu:target ~ .content [lang="hu"]{display:revert}
+		</style>
+	</head>
+	<body>
+		<div id="en"></div>
+		<div id="hu"></div>
+		<span class=lang>
+			<a href=#en><span role=img aria-label=English>🇬🇧</span></a>
+			<a href=#hu><span role=img aria-label=magyar>🇭🇺</span></a>
+		</span>
+		<div class=content>
+			<section>
+				<p lang=en><a href="/">↩ back to home page</a></p>
+				<p lang=hu><a href="/">↩ vissza a kezdőlapra</a></p>
+			</section>
+			<section id=software>
+				<h1 lang=en>Software I use</h1>
+				<h1 lang=hu>Szoftverek, amiket használok</h1>
+				<p lang=en>I value privacy, I hate monopolies, I usually prefer open source. I gravitate toward tried and tested (or "boring") technology. I like when software stays out of the way and hate it when it annoys me with bullshit.</p>
+				<p lang=hu>Fontosnak tartom az adatvédelmet, utálom a monopóliumokat és igyekszem főleg nyílt forrású szoftvereket használni. Általánosságban a jól bevált (avagy "unalmas") technológiákat preferálom. Szeretem, ha egy szoftver nincs útban és utálom, ha hülyeségekkel traktál.</p>
+				
+				<h2><a href="https://firefox.com">Firefox</a> <span lang=en>and</span> <span lang=hu>és</span> (<a href=https://github.com/ungoogled-software/ungoogled-chromium>"Ungoogled"</a>) <a href="https://github.com/Hibbiki/chromium-win64">Chromium</a></h2>
+				
+				<p lang=en>My daily driver is Firefox. For playing and making browser games (in Construct) I use Chromium, sometimes the "ungoogled" version.</p>
+				<p lang=hu>Alapjáraton Firefox-ot használok, de böngészős játékokhoz (és azok fejlesztéshez Construct-ban) Chromium-ot használok, néha az "ungoogled" változatot.</p>
+				
+				<h2><a href="https://learn.microsoft.com/en-us/windows/whats-new/ltsc/whats-new-windows-10-2021">Windows 10 LTSC</a></h2>
+				<p lang=en>Obtaining this version is not very straitforward (thanks, Microsoft), but the Home/Pro versions would drive me up the wall. The LTSC version is still receives security updates until 2027, but I'll probably look into alternatives soon as I have no intention to use Windows 11. I've used macOS and various Linux distros in the past; Linux Mint, Manjaro and KDE Neon were pretty good daily drivers for me.</p>
+				<p lang=hu>A beszerzése meglehetősen cseles (kösz, Microsoft), de a Home/Pro verziótól falra másznék. Az LTSC verzió 2027 januárjáig kap biztonsági frissítéseket, így hamarosan alternatívát kell rá keresnem, mert a Windows 11-et nem szeretnék. Korábban használtam már macOS-t és mindenféle Linuxokat, leginkább a Linux Mint, a Manjaro és a KDE Neon disztrókat találtam munkára alkalmasnak.</p>
+				
+				<h2><a href="https://code.visualstudio.com/">Visual Studio Code</a> / <a href="https://vscodium.com/">VSCodium</a></h2>
+				<p lang=en>I used NetBeans to write HTML, CSS, JS and PHP for about 15 years, then I found a working SFTP extension for VSCode.</p>
+				<p lang=hu>15 év NetBeans használat után váltottam rá, miután találtam hozzá egy jól működő SFTP plugint. HTML, CSS, JavaScript és PHP kódoláshoz használom.</p>
+				
+				<h2><a href="https://www.construct.net/">Construct 3</a></h2>
+				<p lang=en>The game engine that clicked for me. Targets and runs in the browser, great for making 2D <a href="https://fodi.itch.io/">games</a>. I've been hooked on it since 2020.</p>
+				<p lang=hu>Kezdőbarát engine elsősorban 2D <a href="https://fodi.itch.io/">játékok</a> fejlesztéséhez. 2020 óta rá vagyok csavarodva.</p>
+				
+				<h2 lang=en>Utilities</h2>
+				<h2 lang=hu>Segédprogramok</h2>
+				<p lang=en></p>
+				<p lang=hu></p>
+				<ul>
+					<li>
+						<a href="http://scoop.sh/">Scoop</a>
+						<span lang=en>is a package manager for Windows. I install and update most of the programs with this.</span>
+						<span lang=hu>csomagkezelő, a legtöbb prorgramot ezzel telepítem és frissítem.</span>
+					</li>
+					<li>
+						<a href="https://www.onecommander.com/">OneCommander</a>
+						<span lang=en>is an excellent replacement for the Windows File Explorer, comes with tabs and a lot of other features</span>
+						<span lang=hu>a Windows Intéző helyett</span>
+					</li>
+					<li>
+						<a href="https://notepad-plus-plus.org/">Notepad++</a>
+						<span lang=en>is wonderful notepad.exe replacement for writing, making todo lists and some light coding.</span>
+						<span lang=hu>jegyzettömb, csak sokkal jobb. Munkához és hobbi projektekhez is rengeteget használom.</span>
+					</li>
+					<li>
+						<a href="https://github.com/henrypp/simplewall/">SimpleWall</a>
+						<span lang=en>is a lightweight application firewall for Windows to block network access for programs I prefer to keep offline.</span>
+						<span lang=hu>alkalmazás tűzfal, amivel letiltom bizonyos programok ill. szolgáltatások hálózati elérését.</span>
+					</li>
+					<li>
+						<a href="https://www.7-zip.org/">7-Zip</a>
+						<span lang=en>to deal with compressed archives.</span>
+						<span lang=hu>tömörített fájlokhoz.</span>
+					</li>
+					<li>
+						<a href="https://github.com/clsid2/mpc-hc/">MPC-HC</a>
+						<span lang=en>to play videos.</span>
+						<span lang=hu>videók lejátszásához.</span>
+					</li>
+					<li>
+						<a href="https://www.un4seen.com/xmplay.html">XMPlay</a>
+						<span lang=en>to play music (including tracker tunes).</span>
+						<span lang=hu>zenék lejátszásához.</span>
+					</li>
+					<li>
+						<a href="https://imageglass.org/">ImageGlass</a> / <a href="https://interversehq.com/qview/">qView</a>
+						<span lang=en>to view image files.</span>
+						<span lang=hu>képek nézegetéséhez.</span>
+					</li>
+					<li>
+						<a href="https://www.qbittorrent.org">qBittorrent</a>
+						<span lang=en>to download Linux ISOs.</span>
+						<span lang=hu>Linux ISO-k letöltéséhez.</span>
+					</li>
+				</ul>
+			</section>
+			<section id=services>
+				<h1 lang=en>Services I use</h1>
+				<h1 lang=hu>Szolgáltatások, amiket használok</h1>
+				
+				<h2><a href="https://dropbox.com">Dropbox</a></h2>
+				<p lang=en>I use three different PCs in rotation, I sync my work projects and files on my desktop with Dropbox.</p>
+				<p lang=hu>Három PC-t használok felváltva, a Dropbox szinkronizálja közöttük az asztalom és a projektmappáim tartalmát.</p>
+				
+				<h2><a href="https://www.startpage.com/">Startpage</a></h2>
+				<p lang=en>My main search engine, essentially a proxy for Google. Also removes a lot of bullshit from the results page.</p>
+				<p lang=hu>Az alapértelmezett keresőmotorom. Google találatokat jelenít meg, de a böngészőm így nem kommunikál a Google szervereivel (és nincs egy rakás baromság a találati oldalakon).</p>
+				
+				<h2><a href="https://discord.com/">Discord</a>, <a href="https://telegram.org/">Telegram</a> <span lang=en>and</span> <span lang=hu>és</span> <a href="https://bsky.app/profile/bsky.fodi.be/">Bluesky</a></h2>
+				<p lang=en>I deleted my Facebook and Instagram accounts in 2025 and I don't intend to go back. I found great communities on Discord, I talk to my friends on Telegram and I occasionally use Bluesky to post about gamedev and discover fellow creators.</p>
+				<p lang=hu>2025-ben megszüntettem a Facebook és Instagram fiókjaimat és nem is tervezek visszatérni. Online közösségi életet Discordon élek, ismerőseimmel Telegramon kommunikálok, a Bluesky-t szinte kizárólag játékfejlesztéssel kapcsolatos posztolásra és tartalom-felfedezésre használom.</p>
+			</section>
+			<footer lang=en>&copy; Bence Fodor</footer>
+			<footer lang=hu>&copy; Fodor Bence</footer>
+		</div>
+	</body>
+</html>
