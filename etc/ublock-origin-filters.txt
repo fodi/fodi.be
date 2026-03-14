@@ -1,0 +1,12 @@
+! Discord: remove shop link
+discord.com##a[href="/shop"]
+
+! Twitch: remove annoying prime button from top navigation
+www.twitch.tv##.top-nav__prime
+
+! Gmail: remove Gemini button
+mail.google.com##div:has( > div > span [aria-label="Try Gemini"])
+
+! 444.hu: remove Borízű hang podcast articles
+444.hu##article:has(a[title^="Borízű"])
+444.hu##a[title^="Borízű"]
