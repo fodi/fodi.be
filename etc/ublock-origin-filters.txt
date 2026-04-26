@@ -10,3 +10,6 @@ mail.google.com##div:has( > div > span [aria-label="Try Gemini"])
 ! 444.hu: remove Borízű hang podcast articles
 444.hu##article:has(a[title^="Borízű"])
 444.hu##a[title^="Borízű"]
+
+! Google Drive: remove Gemini button
+drive.google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
